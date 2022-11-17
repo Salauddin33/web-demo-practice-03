@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* header part st  */
+#header_part{
+    background: #02918c;
+}
+.logo{
+    width: 170px;
+    float: left;
+}
+.logo{
+padding:30px;
+}
+.menu{
+    width: 1000px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-left:30px;
+    line-height: 80px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color: #cfc91d;
+}
+
+/* header part ed  */
+
+
+/* banner part st  */
+#banner_part{
+    padding-top: 270px;
+    padding-bottom: 200px;
+    background: url(../images/banner-jpg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_text{
+    text-align: center;
+    
+}
+.banner_text h1{
+    color: #fff;
+    font-size:70px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text h3{
+    color: #fff;
+    font-size:30px;
+    font-weight: 800;
+   
+    font-family: 'Open Sans', sans-serif;
+}
+.banner_text p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:30px;
+}
+.banner_text img{
+    margin-right:-107px;
+    margin-bottom: 50px;
+}
+.banner_button{
+    
+    display: inline-block;
+}
+.banner_button h3{
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0.499);
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.4s;
+}
+.banner_button h3{
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+}
+.banner_button h3:hover{
+    background: #cfc91d;
+}
+/* banner part ed  */
+
+/* aboutmw part st  */
+#About_part{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: #fff;
+}
+.text_item_part{
+    text-align: center;
+}
+.text_item h3{
+    color: #02918c;
+    font-size:46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.text_item img{
+    margin: 30px 0;
+}
+.text_item p{
+    color: #989b9f;
+    font-size: 16px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 85px;
+    line-height: 30px;
+}
+.text_item p span{
+    color: #7e8287;
+    font-size:23px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.images_item{
+    margin-top: 100px;
+    width: 260px;
+    
+
+}
+.images_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.images_item h3{
+    margin-top: 20px;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+}
+.images_item p{
+    color: #989b9f;
+    font-size: 11px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 25px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+/* aboutmw part ed  */
+
+/* service part st  */
+#service_part{
+    padding-top: 70px;
+    padding-bottom: 85px;
+    background:url(../images/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service_text_img_part{
+    width: 580px;
+    
+}
+.service_text img{
+    /* margin-left: 191px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.service_text h3{
+    /* text-align: center; */
+    color: #02918c;
+    font-size:46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.service_text p{
+    /* text-align: center; */
+    color: #989b9f;
+    font-size: 11px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+}
+.service_img{
+    margin-top: 50px;
+    
+}
+.service_img h3{
+    margin-top: 20px;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 10px;
+}
+.service_img p{
+    color: #989b9f;
+    font-size: 11px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 25px;
+}
+.service_imgss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+/* service part ed  */
+
+
+/* my work part st  */
+#my_works_part{
+padding: 100px 0;
+background: #fff;
+}
+.textt_img_parts{
+    text-align: center;
+}
+.textt img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.textt h3{
+    color: #02918c;
+    font-size:46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+.textt p{
+    color: #989b9f;
+    font-size: 11px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 239px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.immg{
+    /* margin-left:70px; */
+    display: flex;
+    align-items: center;
+}
+.immgs{
+    /* margin-left: 136px; */
+    display: flex;
+    align-items: center;
+}
+.last_text h3{
+    color: #02918c;
+    font-size:46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+}
+.last_text img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.last_text p{
+    color: #989b9f;
+    font-size: 11px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 350px;
+}
+/* my work part ed  */
+
+/* contract part st  */
+#contyract_part{
+    padding: 70px 0;
+    background: #0b0b0b;
+}
+.contracting_items{
+    text-align: center;
+}
+.name{
+    position: relative;
+}
+.name::after{
+    position: absolute;
+    height: 1px;
+    width: 430px;
+    content: "";
+    background:#989b9f;
+    top: 100%;
+    left:32%;
+}
+.name h3{
+    color: #989b9f;
+    font-size: 16px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.email{
+    margin-top: 70px;
+}
+.email{
+    position: relative;
+}
+.email::after{
+    position: absolute;
+    height: 1px;
+    width: 430px;
+    content: "";
+    background:#989b9f;
+    top: 100%;
+    left:32%;
+}
+.email h3{
+    color: #989b9f;
+    font-size: 16px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+}
+.massge h3{
+    color: #989b9f;
+    font-size: 16px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.massge{
+    margin-top: 70px;
+}
+.massge{
+    position: relative;
+}
+.massge::after{
+    position: absolute;
+    height: 1px;
+    width: 630px;
+    content: "";
+    background:#989b9f;
+    top: 100%;
+    left:23%;
+}
+.dgdgdfg{
+    margin-top: 70px;
+}
+.dgdgdfg{
+    position: relative;
+}
+.dgdgdfg::after{
+    position: absolute;
+    height: 1px;
+    width: 630px;
+    content: "";
+    background:#989b9f;
+    top: 100%;
+    left:23%;
+}
+/* contract part ed  */
+
+
+/* end part st  */
+#ends_part{
+    padding: 30px 0;
+    background: #000;
+}
+.ends{
+    text-align: center;
+}
+.ends h3{
+    color: #989b9f;
+    font-size: 12px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+}
+/* end part ed  */
+/* header part st  */
+/* header part ed  */
